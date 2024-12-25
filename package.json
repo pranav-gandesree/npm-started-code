@@ -8,7 +8,7 @@
     "start": "node index.js"
   },
   "bin": {
-    "project-setup": "index.js"
+    "quickstart-project": "index.js"
   },
   "keywords": [
     "quickstart-project",
