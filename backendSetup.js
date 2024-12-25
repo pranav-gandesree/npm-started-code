@@ -7,6 +7,8 @@ export const backendSetup = async () => {
   shell.mkdir('backend');
   shell.cd('backend');
 
+  shell.mkdir('src');
+
   console.log(chalk.green('Installing backend dependencies...'));
   shell.exec('npm init -y');
   shell.exec('npm install express mongoose cors dotenv jsonwebtoken bcryptjs');

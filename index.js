@@ -38,6 +38,8 @@ const setupProject = async () => {
   }
 
   if (frontendChoice.includes('Express') && frontendChoice.includes('Mongoose')) {
+    console.log(chalk.blue('Switching to the project root folder for backend setup...'));
+    process.chdir('../'); 
     await backendSetup();
   }
 
