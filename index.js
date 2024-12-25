@@ -21,8 +21,8 @@ const setupProject = async () => {
       choices: [
         'Next.js + Shadcn + Prisma',
         'Next.js + Shadcn',
-        'React + TypeScript + Tailwind + Shadcn',
-        'React + TypeScript + Tailwind + Shadcn + Express + Mongoose',
+        'React + TypeScript + Tailwind',
+        'React + TypeScript + Tailwind + Express + Mongoose',
       ],
     },
   ]);

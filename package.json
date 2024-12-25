@@ -4,22 +4,28 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "bin": {
     "project-setup": "index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "keywords": ["npm-starter", "cli", "project-setup", "javascript"],
+  "author": "pranav pranav8267@gmail.com",
+  "license": "MIT",
+  "description": "A starter project for setting up frontend and backend configurations using a CLI tool.",
   "dependencies": {
-    "chalk": "^5.4.1",
+    "chalk": "^4.5.1",
     "inquirer": "^12.3.0",
     "shelljs": "^0.8.5"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.20",
     "postcss": "^8.4.49"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/npm-starter.git"
   }
+
 }

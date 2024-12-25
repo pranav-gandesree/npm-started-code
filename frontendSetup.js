@@ -1,7 +1,7 @@
 import fs from 'fs';
 import chalk from 'chalk';
 import shell from 'shelljs';
-import { installPrisma, installTailwind, installShadcn, installShadcnForReact } from './helperFunction.js';
+import { installPrisma, installTailwind, installShadcn } from './helperFunction.js';
 
 export const frontendSetup = async (frontendChoice) => {
   if (frontendChoice.startsWith('Next.js')) {
